@@ -21,7 +21,9 @@ module.exports = (api) => {
       'babel-plugin-styled-components',
       {
         minify: true,
-        pure: true
+        pure: true,
+        displayName: false,
+        fileName: false
       }
     ]
   ]
